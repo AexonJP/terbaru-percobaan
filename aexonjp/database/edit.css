@@ -1,0 +1,52 @@
+*{
+    color: white;
+}
+
+.form input{
+    color : black;
+}
+
+body{
+    background-image: url("../about/ayame.jpg");
+    background-size:cover;
+}
+
+table {
+    position: static;
+    z-index: 2;
+    /*left: 50%;*/
+    /*top: 33%;*/
+    /*transform: translate(-50%, -50%);*/
+    width: 85% ;
+    min-width: 700px;
+    margin-top:4%;
+    /*height: 400px;*/
+    background: #2d2e37;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden ;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 12px rgba(32, 32, 32, .3);
+    color: var(--main-color);
+
+}
+
+a {
+    color: var(--nav-color);
+    padding-left: 3px;
+}
+
+th,td{
+    padding: 12px 15px;
+}
+
+th {
+    color: var(--text-color);
+    text-transform: uppercase;
+    background: var(--head-color) ;
+}
+
+tr:nth-child(odd) {
+    background-color: #1e1e2a;
+}
